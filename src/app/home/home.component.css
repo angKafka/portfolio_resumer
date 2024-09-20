@@ -13,3 +13,13 @@
     width: 134px !important;
     height: auto !important;
 }
+.blinking-cursor {
+    border-right: 0.15em solid #06f !important; 
+    animation: blink 0.75s step-end infinite; 
+    z-index: 0;/* Infinite loop */
+  }
+  
+  @keyframes blink {
+    0%, 100% { border-color: #06f !important; } 
+    50% { border-color: transparent; } 
+  }

@@ -16,7 +16,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col align-self-center"><h1 class="text-center text-primary-gr">{{ greetingMessage }}</h1></div>
+            <div class="col align-self-center">
+                <h1 class="text-center text-primary-gr" [ngClass]="{'blinking-cursor': isTyping}">
+                  {{ displayedMessage }}
+                </h1>
+              </div>
         </div>
     </div>
 </section>
