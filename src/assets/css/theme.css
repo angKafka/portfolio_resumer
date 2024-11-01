@@ -6893,7 +6893,8 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     background-color: #fff;
     background-clip: border-box;
     border: 0 solid #3f4d62;
-    border-radius: 1rem
+    border-radius: 1rem;
+    margin-bottom: 30px;
 }
 
 .card>hr {
